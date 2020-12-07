@@ -8,11 +8,16 @@ main {
     width: 450px;
     margin: 0 auto;
 }
+.title{
+    text-align: center;
+}
 
 .under-line {
     width: 100px;
     background: #05d4de;
     height: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 article.single-tour {
@@ -31,6 +36,7 @@ article.single-tour {
     align-items: center;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 footer {
