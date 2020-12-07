@@ -1,9 +1,9 @@
 import React from 'react'
-
-export default function Loading() {
+const Loading = () => {
     return (
-        <div>
-            
+        <div className="tour-loading">
+            <h1>Loading...</h1>            
         </div>
     )
 }
+export default Loading;
