@@ -67,3 +67,9 @@ button.delete-btn {
 footer {
     padding: 1.5rem 2rem;
 }
+.refresh-btn{
+    background: #20bcf5;
+    color:#ffffff;
+    padding:0.25rem 0.5rem;
+    border: #20bcf5;
+}

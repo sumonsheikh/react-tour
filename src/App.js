@@ -41,13 +41,20 @@ function App() {
         <Loading />
       </main>
     );
-  }else{
+  }
+  if(tours.length === 0){
     return(
       <main>
-        <Tours tours = {tours} removeTour={removeTour}/>
+        <h1>No Tours found!</h1>
+        <button className="refresh-btn" onClick={fetchTours}>Refresh</button>
       </main>
     );
   }
+  return(
+    <main>
+      <Tours tours = {tours} removeTour={removeTour}/>
+    </main>
+  );
 
 }
 
